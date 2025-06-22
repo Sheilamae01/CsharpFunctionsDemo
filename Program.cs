@@ -14,7 +14,7 @@ namespace CSharpFunctionsDemo
 
         static void GreetUser(string name)
         {
-            Console.WriteLine($"Hello, {name}! Welcome to C# functions.");
+            Console.WriteLine($"Hello, {Sheila}! Welcome to C# functions.");
         }
         static void SayBye()
         {
