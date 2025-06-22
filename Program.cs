@@ -16,7 +16,11 @@ namespace CSharpFunctionsDemo
         {
             Console.WriteLine($"Hello, {name}! Welcome to C# functions.");
         }
-
+        static void SayBye()
+        {
+            Console.WriteLine("Goodbye!");
+        }
+  
         static int AddNumbers(int a, int b)
         {
             return a + b;
